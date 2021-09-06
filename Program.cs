@@ -91,10 +91,12 @@ namespace SorteioUpCode
             };
 
             Random rdm = new Random();
-            Console.WriteLine("Defina quantos grupos: ");
+            Console.Write("Defina quantos grupos: ");
             int quantidade = int.Parse(Console.ReadLine());
-            Console.WriteLine("Quantidade na equipe: ");
+            Console.Write("Quantidade na equipe: ");
             int equipe = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
             int contador = 0;
             int numeral = 1;
 
